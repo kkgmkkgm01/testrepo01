@@ -8,8 +8,6 @@ jobs:
           APP_DEBUG: true
           DB_CONNECTION: sqlite
     working_directory: ~/laravel 
-test:
-  override:
     - phpunit SampleTest
 #    steps: 
 #      - checkout 
