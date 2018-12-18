@@ -1,11 +1,12 @@
 <?php
 require_once('./Sample.php');
-class SampleTest extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class MyTestCase extends TestCase
 {
     public function test()
     {
         $Sample = new Sample();
         $this->assertEquals($Sample->helloWorld(), 'hello world!');
     }
-
 }
