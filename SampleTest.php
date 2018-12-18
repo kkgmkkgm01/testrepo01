@@ -14,6 +14,6 @@ class SampleTest extends PHPUnit_Framework_TestCase
     public function aaa()
     {
         $Sample = new Sample();
-        $this->assertEquals($Sample->helloWorld(), 'aaa');
+        $this->assertEquals($Sample->helloWorld(), 'aaaaa');
     }
 }
